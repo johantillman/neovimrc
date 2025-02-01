@@ -21,9 +21,9 @@ return {
 		priority = 1000,
 		config = function()
 			require("cyberdream").setup({
-				transparent = true,
+				-- transparent = true,
 			})
-			SetTheme("cyberdream")
+			-- SetTheme("cyberdream")
 		end,
 	},
 	{
@@ -35,7 +35,7 @@ return {
 				styles = {
 					bold = false,
 					italic = false,
-					transparency = true,
+					-- transparency = true,
 				},
 			})
 			-- SetTheme("rose-pine-main")
@@ -47,15 +47,15 @@ return {
 		priority = 1000,
 		config = function()
 			require("tokyonight").setup({
-				transparent = true,
+				-- transparent = true,
 				terminal_colors = true,
 				styles = {
 					comments = { italic = false },
 					keywords = { italic = false },
-					floats = "transparent",
+					-- floats = "transparent",
 				},
 			})
-			-- SetTheme("tokyonight-night")
+			SetTheme("tokyonight")
 		end,
 	},
 	{
